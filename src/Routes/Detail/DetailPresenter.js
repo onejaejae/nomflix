@@ -204,12 +204,6 @@ const SeasonImage = styled.img`
     display: block;
 `;
 
-const A = styled.div`
-    display:flex
-`;
-
-const B = styled.img``;
-
 const DetailPresenter = ({ result, loading, error }) => {
 
     const [flag, setFlag] = useState(false);
